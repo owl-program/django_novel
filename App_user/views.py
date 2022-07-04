@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView # テンプレートタグ
-from .forms import AccountForm, AddAccountForm # ユーザーアカウントフォーム
+from django.views.generic import TemplateView
+from .forms import AccountForm, AddAccountForm
 # ログイン・ログアウト処理に利用
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
